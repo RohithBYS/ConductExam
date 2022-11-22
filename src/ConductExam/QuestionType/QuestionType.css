@@ -1,0 +1,38 @@
+.option-box-cont{
+    width: 55%;
+    height: 2.5rem; 
+    border-radius: 5px;
+    /* padding: 1px; */
+    border: solid 2px #888888;
+    box-shadow: 5px 5px #888888;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.option-box-cont-active{
+    border: solid 2px #1CD8E9;
+}
+.option-gap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.option-box{
+    background-color: #888888;
+    padding: 7px 10px 7px 10px;
+    border-radius: 100px;
+}
+
+.option-box-active{
+    background-color: #1CD8E9;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 100px;
+}
+
+.option-bpx-gap{
+    margin-top: 30px;
+}

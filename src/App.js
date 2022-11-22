@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import ExamSetup from './ExamSetup';
+import ExamPalette from './ExamPalette';
+
+
+
+
 
 function App() {
+
+  const [showExam, setShowExam]=useState(false)
+  // const [display, setDispay] = useState(null)
+  const startExam = (check) =>{
+    setShowExam(check)
+    console.log("Data in APP.js from Exam setup to APP : "+showExam)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+
+
+    {
+      showExam === false ? <ExamSetup startExam={startExam}/> : <ExamPalette/>
+    }
+
+    </>
   );
 }
 

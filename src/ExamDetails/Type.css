@@ -1,0 +1,71 @@
+.border-line{
+    border-bottom: solid 2px black;
+    width: 30vh;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.border-line-active{
+    border-bottom: solid 2px #F3277C;
+    width: 30vh;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.black-line{
+    border: solid 1px black;
+    margin-top: 1%;
+}
+
+
+.content-cont{
+    width: 60%;
+    height: 300px;
+    overflow-y: auto; 
+    padding-left: 1%;  
+}
+
+
+
+.schema-display{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: -5px;
+    /* gap: 3rem; */
+    /* justify-content: start; */
+}
+
+.negative-space-div{
+    margin-top: 0px;
+    font-size: 14px;
+    
+}
+
+.image-text-below{
+    margin-top: -10px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+    margin-bottom: 1rem;
+}
+
+.subject-img{
+    margin-left: 1.3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.chapter-radio-btn{
+    padding-left: 6%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    padding-bottom: 1%;
+}
+
+
